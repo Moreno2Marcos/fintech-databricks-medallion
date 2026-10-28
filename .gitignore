@@ -1,0 +1,18 @@
+# Databricks / Jupyter local artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.databricks/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
